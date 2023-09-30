@@ -1,0 +1,101 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+/* Form container */
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+h1{
+  text-align: center;
+  margin-top: 5% !important;
+  color: white;
+}
+
+label{
+  color: white;
+}
+/* Input fields */
+input {
+  width: 100% !important;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Input field focus */
+input:focus {
+  border-color: #333;
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Submit button hover */
+button:hover {
+  background-color: #444;
+}
+
+/* Form validation errors */
+.error {
+  color: red;
+}
+
+/* Form validation success */
+.success {
+  color: green;
+}
+
+@media (max-width: 576px) {
+  /* Form container */
+  form {
+    padding: 10px;
+  }
+
+  /* Input fields */
+  input {
+    font-size: 16px;
+  }
+
+  /* Submit button */
+  button {
+    font-size: 16px;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+/* #skills{
+  width: 200px;
+  display: inline-block !important;
+} */
+
+#skill-range{
+
+  font-size: 15px !important;
+}
+
+#aboutexperiance{
+  
+  font-size: 13px !important;
+}
