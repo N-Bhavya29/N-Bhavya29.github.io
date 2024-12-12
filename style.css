@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Goia;
+    src: url(./font/Goia-Regular.otf);
+}
+
+@font-face {
+    font-family: Goia-extrabold;
+    src: url(./font/Goia-ExtraBold.otf);
+}
+
+body {
+    background-color: black;
+}
+
+.fdiv {
+    width: 450px;
+    height: 800px;
+    padding: 113px 0px 114px 178px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 61px;
+    display: inline-flex;
+}
+
+.sdiv {
+    height: 96px;
+    position: relative;
+}
+
+.tdiv {
+    width: 424px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.frdiv {
+    color: white;
+    font-size: 42px;
+    font-family: Goia-extrabold;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.ftdiv {
+    color: white;
+    font-size: 36px;
+    font-family: Goia;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.32px;
+    word-wrap: break-word;
+}
+
+.sixdiv {
+    width: 263px;
+    height: 36.30px;
+    position: relative;
+}
+
+.sevdiv {
+    width: 36.30px;
+    height: 36.30px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.eightdiv {
+    width: 35.23px;
+    height: 36.30px;
+    left: 151.87px;
+    top: 0px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.fspan {
+    color: white;
+    font-size: 24px;
+    font-family: Goia !important;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.sspan {
+    color: white;
+    font-size: 24px;
+    font-family: Goia;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.sevendiv {
+    color: white;
+    font-size: 24px;
+    font-family: Goia;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .fdiv {
+        width: 100%;
+        height: auto;
+        padding: 9% 0 0 9%;
+        gap: 30px;
+    }
+    
+
+    .tdiv {
+        width: 80%;
+    }
+
+    .frdiv {
+        font-size: 32px;
+    }
+
+    .ftdiv {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .fspan, .sspan, .sevendiv {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fdiv {
+        gap: 30px;
+        padding: 9% 0 0 5%;
+    }
+
+    .frdiv {
+        font-size: 24px;
+    }
+
+    .ftdiv {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .fspan, .sspan, .sevendiv {
+        font-size: 15px;
+    }
+}
