@@ -1,0 +1,29 @@
+<img style="width: 15.74px; height: 58.42px;" src=".\images\Vector.png" />
+                <div style="flex-direction: column">
+                    <img style="width: 15.22px; height: 23.48px;" src=".\images\Vector (1).png" />
+                    <img style="width: 15.12px; height: 23.48px;" src=".\images\Vector (2).png" />
+                <img style="width: 42.93px; height: 33.10px;" src=".\images\Vector (3).png" />
+                </div>
+                <div style="flex-direction: column">
+                    <img style="width: 43px; height: 44.24px;" src=".\images\Vector (4).png" />
+                    <img style="width: 41.92px; height: 9.50px;" src=".\images\Vector (5).png" />
+                </div>
+                <div style="flex-direction: column">
+                    <img style="width: 47.67px; height: 24.61px;" src=".\images\Vector (6).png" />
+                    <img style="width: 47.74px; height: 33.52px;" src=".\images\Vector (7).png" />
+                </div>
+                <div style="flex-direction: column">
+                    <img style="width: 23.49px; height: 12.18px; margin:0px 12px" src=".\images\Vector (8).png" />
+                    <img style="width: 48.39px; height: 43.62px;" src=".\images\Vector (9).png" />
+                </div>   
+                <div style="flex-direction: column">
+                    <img style="width: 42.23px; height: 24.96px;" src=".\images\Vector (10).png" />
+                    <img style="width: 42.26px; height: 32.16px;" src=".\images\Vector (11).png" />
+                </div>
+                <img style="width: 30.30px; height: 55.14px;" src=".\images\Vector (12).png" />
+                <div style="flex-direction: column">
+                    <img style="width: 28.73px; height: 39.98px;" src=".\images\Vector (13).png" />
+                    <img style="width: 28.73px; height: 17.14px;" src=".\images\Vector (14).png" />
+                </div>
+                <img style="width: 15.77px; height: 58.42px;" src=".\images\Vector (15).png" />
+                <img style="width: 65.97px; height: 62.02px;" src=".\images\Vector (16).png" />
